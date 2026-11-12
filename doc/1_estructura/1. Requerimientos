@@ -1,0 +1,67 @@
+De manera inicial se crea el archivo Index.html, el cual es el archivo principal de la página web, en este archivo se encontra
+
+Para la ejecución y visualizacioin vamos a utilizar la extension LiveServer de VS Code.
+
+Abrir con LiveServer, para al ir escribiendo, y al agregando html y css. Se reflejaran en el navegador.
+
+Se puede detener el servidor con Ctrl+C en la terminal de VS Code o haciendo clic derecho sobre la página web en el navegador y seleccionando "Open with Live Server".
+
+Se crea la carpeta Doc, en la cual se guardaran los documentos de trabajo.
+
+Para utilizar Emmet en el codigo html podemos escribir ! y enseguida presionar la tecla TAB o enter.
+
+En el documento index.html vamos a generar la estructura basica de la pagina web.
+
+HTML tiene anidaciones, y la mas importante es DOCTYPE, la cual nos dice que el documento es de tipo html.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+En html existen etiquetas semanticas, las cuales nos ayudan a estructurar el codigo de manera semantica. Por ejemplo, la etiqueta header es para la cabecera de la pagina, la etiqueta nav es para la navegacion, la etiqueta main es para el contenido principal, la etiqueta section es para una seccion, la etiqueta article es para un articulo, la etiqueta footer es para el pie de pagina, etc. 
+
+Ha etiquetas de apertura y cierre y algunas como meta no tienen cierre.
+
+Hay dos secciones principales en el codigo html, la sección head y la sección body. En la sección head va toda la informacion que no se muestra en la pagina web, por ejemplo, el titulo de la pagina, los estilos, los scripts, etc. En la sección body va todo el contenido que se muestra en la pagina web, por ejemplo, los textos, las imagenes, los videos, etc.
+
+title es la etiqueta que define el titulo de la pagina web, este titulo se muestra en la pestaña del navegador.
+
+Body contiene lo que esta visible en la pagina web.
+
+En head podemos encontrar varias etiquetas, entre ellas la etiqueta link, la cual nos permite enlazar archivos externos, por ejemplo, archivos css, archivos javascript, etc. la etiqueta meta, la cual nos permite definir metadatos de la pagina, por ejemplo, el charset, el viewport, etc. la etiqueta title, la cual nos permite definir el titulo de la pagina web.
+
+HTML no es un lenguaje de programacion, si no un lenguaje de marcado, lo que nos permite estructurar el contenido de una pagina web. 
+
+Algo importante es muy flexible, podemos escribir las etiquetas en mayusculas, minusculas, o como queramos, pero hay que tener cuidado de no cometer errores, como por ejemplo, escribir mal una etiqueta, cerrar una etiqueta que no se ha abierto, etc. 
+
+Emmet funciona iniciando con !, ayuda a salvar mucho tiempo en escribir codigo html
+
+por ejemplo: p*3 y presionar TAB nos creara 3 etiquetas p anidadas.
+
+VSC funciona en varios sistema operativos, y aunque no es de Microsoft es multiplataforma, es decir que se puede instalar en Windows, macOS, Linux, etc. No todo el codigo es correcto en VSC, sin embargo la mayoria lo es.
+
+El siguiente paso es crear la carpeta CSS. y dentro de ella crear el archivo estilos.css. 
+
+Ahora enlazaremos el archivo estilos.css con el archivo index.html. Para hacerlo, vamos a utilizar la etiqueta link dentro de la sección head. La etiqueta link tiene varios atributos, entre ellos el atributo href, el cual nos indica la ruta del archivo que queremos enlazar, el atributo rel, el cual nos indica la relacion del archivo que queremos enlazar, en este caso es "stylesheet", y el atributo type, el cual nos indica el tipo de archivo que queremos enlazar, en este caso es "text/css".
+
+Vamos a integrar la simagenes inicialmente en la carpeta IMG
+
+
+es importante el index.html y la carpeta img
+
+
+
+
+
+
+
